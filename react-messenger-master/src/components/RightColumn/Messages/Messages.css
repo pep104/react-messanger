@@ -1,0 +1,79 @@
+.messages {
+    padding: 18px 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.messages__emptyChat {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color: #848482;
+}
+
+.dateMessages {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.dateMessages__date {
+    margin-bottom: 12px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    min-width: 165px;
+    height: 36px;
+    background-color: #eaeae9;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Noto Serif JP';
+    font-weight: 500;
+}
+
+.dateMessages__messages {
+    display: block;
+}
+
+.message {
+    margin-bottom: 36px;
+    display: flex;
+}
+
+.message__avatar {
+    margin-right: 12px;
+    min-width: 50px;
+}
+
+.message__text {
+    display: block;
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.message__text__name {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: 'Noto Serif JP';
+    font-weight: 900;
+}
+
+.message__text__message {
+    padding-right: 38px;
+    text-align: justify;
+}
+
+.message__time {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Noto Sans JP';
+    color: #848482
+}
